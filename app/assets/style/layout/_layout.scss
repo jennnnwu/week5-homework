@@ -1,0 +1,32 @@
+.page-wrap{
+    min-height: 100vh;
+}
+.side-bar{
+    min-width: 296px;
+    background-color: $color-gray-100;
+    font-size: 16px;
+    .side-menu-item{
+        padding: 4px 28px;
+        margin-bottom: 16px;
+        font-weight: bold;
+        &.active{
+            border-left: 4px solid $color-primary;
+            padding: 4px 28px 4px 24px;
+            a{
+                color: $color-primary;
+            }
+        }
+        .material-icons-round{
+            font-size: 24px;
+            margin-right: 16px;
+        }
+    }
+}
+.navbar{
+    padding-bottom: 32px;
+    padding-top: 0;
+}
+.main-body{
+    width: 100%;
+    padding: 32px;
+}

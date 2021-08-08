@@ -1,0 +1,226 @@
+// font size
+.text-xs{
+    font-size: $fz-xs;
+}
+.text-s{
+    font-size: $fz-s;
+}
+.text-base{
+    font-size: $fz-base;
+}
+.text-m{
+    font-size: $fz-m;
+}
+.text-l{
+    font-size: $fz-l;
+}
+.text-xl{
+    font-size: $fz-xl;
+}
+// font color
+.text-gray-600{
+    color: $color-gray-600;
+}
+.text-gray-400{
+    color: $color-gray-400;
+}
+.text-gray-100{
+    color: $color-gray-100;
+}
+.text-primary{
+    color: $color-primary!important;
+}
+//tool
+.text-ellipse{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.user-avatar{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.text-code{
+    font-family: 'Roboto Mono', monospace;
+    font-size: $fz-s;
+    color: $color-primary;
+    background-color: $color-gray-100;
+    margin: 0 2px;
+}
+.icon-btn-item{
+    a{
+        line-height: 0;
+        display: block;
+    }
+}
+.icon-btn-list{
+    .icon-btn-item{
+        font-size: 24px;
+        margin-left: 24px;
+    }
+}
+.page-icon{
+    line-height: 0;
+    padding: .375rem .3rem;
+}
+.status-tag{
+    background-color: $color-gray-100;
+    font-size: $fz-s;
+    color: $color-gray-900;
+    padding: 4px 8px;
+}
+.icon-n-text{
+    display: flex;
+    align-items: center;
+    .material-icons-round{
+        margin-right: 4px;
+    }
+}
+//btn
+.btn{
+    border-radius: 2px;
+    &.btn-gray{
+        background-color: $color-gray-100;
+        border-color: $color-gray-400;
+        &:hover{
+            background-color: $color-gray-200;
+        }
+    }
+    &.btn-outline-primary{
+        border-color: $color-primary;
+        color: $color-primary;
+        &:hover{
+            background-color: $color-primary;
+            color: #fff;
+        }
+    }
+    &.btn-primary{
+        background-color: $color-primary;
+        border-color: $color-primary;
+        &:hover{
+            background-color: darken($color-primary, 10%);
+        }
+    }
+}
+.form-group{
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid $color-gray-400;
+    &:last-child{
+        border-bottom: none;
+    }
+    .form-group-status{
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        justify-content: space-between;
+        .status-content{
+            font-weight: bold;
+        }
+        .status-time{
+            font-size: $fz-s;
+        }
+    }
+    .form-group-title{
+        font-size: $fz-l;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+    .form-group-input-wrap{
+        margin-bottom: 1rem;
+        .form-control,.btn,.form-select{
+            border-radius: 0;
+            height: 50px;
+            &.btn-outline-primar{
+                border: 1px solid $color-gray-900;
+            }
+        }
+        .form-control{
+            &:disabled{
+                background-color: $color-gray-100;
+                border: none;
+            }
+        }
+        .btn{
+            &:disabled{
+                background-color: #fff;
+                border: 1px solid $color-gray-400;
+                color: $color-gray-400;
+            }
+        }
+        .form-check{
+            margin-bottom: 1rem;
+        }
+        .btn-outline-primary{
+            border: 1px solid $color-gray-400;
+            &:hover{
+                border: 1px solid $color-primary;
+            }
+        }
+        .form-label{
+            font-size: $fz-s;
+        }
+    }
+}
+
+//bs
+.navbar-light .navbar-nav .nav-link{
+    color: $color-gray-900;
+    &:hover,&:focus{
+        color: $color-primary;
+    }
+}
+.nav-link{
+    color: $color-gray-900;
+    &:hover,&:focus{
+        color: $color-primary;
+    }
+}
+.dropdown-toggle::after{
+    font-family: 'Material Icons Round';
+    content: "expand_more";
+    -webkit-font-feature-settings: 'liga';
+    border: none;
+    font-size: 24px;
+    color: $color-primary;
+}
+.table>:not(caption)>*>*{
+    padding: 1em;
+}
+.navbar-brand{
+    margin-right: 48px;
+}
+.page-link{
+    color: $color-gray-900;
+}
+.page-link .material-icons-round{
+    color: $color-primary;
+}
+.page-item.active .page-link{
+    color: #fff;
+    background-color: $color-primary;
+    border-color: $color-primary;
+}
+.page-link:hover{
+    color: $color-primary;
+}
+.table-hover>tbody>tr:hover{
+    --bs-table-accent-bg: rgba(0, 0, 0, 0.02);
+}
+.modal-content{
+    border-radius: 0;
+    border: none;
+}
+.modal-body{
+    padding: 2em;
+}
+.modal-header{
+    .modal-title{
+        font-size: $fz-xl;
+        font-weight: bold;
+    }
+    padding: 2em;
+}

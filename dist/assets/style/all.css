@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+body {
+  font-family: 'Lato', sans-serif;
+  color: #212529; }
+
+ul {
+  padding: 0; }
+
+li {
+  list-style-type: none; }
+
+a {
+  color: #212529;
+  text-decoration: none;
+  cursor: pointer; }
+  a:hover {
+    color: #198754; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.text-xs {
+  font-size: 12px; }
+
+.text-s {
+  font-size: 14px; }
+
+.text-base {
+  font-size: 16px; }
+
+.text-m {
+  font-size: 18px; }
+
+.text-l {
+  font-size: 20px; }
+
+.text-xl {
+  font-size: 24px; }
+
+.text-gray-600 {
+  color: #6C757D; }
+
+.text-gray-400 {
+  color: #CED4DA; }
+
+.text-gray-100 {
+  color: #F8F9FA; }
+
+.text-primary {
+  color: #198754 !important; }
+
+.text-ellipse {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.text-code {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  color: #198754;
+  background-color: #F8F9FA;
+  margin: 0 2px; }
+
+.icon-btn-item a {
+  line-height: 0;
+  display: block; }
+
+.icon-btn-list .icon-btn-item {
+  font-size: 24px;
+  margin-left: 24px; }
+
+.page-icon {
+  line-height: 0;
+  padding: .375rem .3rem; }
+
+.status-tag {
+  background-color: #F8F9FA;
+  font-size: 14px;
+  color: #212529;
+  padding: 4px 8px; }
+
+.icon-n-text {
+  display: flex;
+  align-items: center; }
+  .icon-n-text .material-icons-round {
+    margin-right: 4px; }
+
+.btn {
+  border-radius: 2px; }
+  .btn.btn-gray {
+    background-color: #F8F9FA;
+    border-color: #CED4DA; }
+    .btn.btn-gray:hover {
+      background-color: #F4f5F6; }
+  .btn.btn-outline-primary {
+    border-color: #198754;
+    color: #198754; }
+    .btn.btn-outline-primary:hover {
+      background-color: #198754;
+      color: #fff; }
+  .btn.btn-primary {
+    background-color: #198754;
+    border-color: #198754; }
+    .btn.btn-primary:hover {
+      background-color: #115c39; }
+
+.form-group {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #CED4DA; }
+  .form-group:last-child {
+    border-bottom: none; }
+  .form-group .form-group-status {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    justify-content: space-between; }
+    .form-group .form-group-status .status-content {
+      font-weight: bold; }
+    .form-group .form-group-status .status-time {
+      font-size: 14px; }
+  .form-group .form-group-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1rem; }
+  .form-group .form-group-input-wrap {
+    margin-bottom: 1rem; }
+    .form-group .form-group-input-wrap .form-control, .form-group .form-group-input-wrap .btn, .form-group .form-group-input-wrap .form-select {
+      border-radius: 0;
+      height: 50px; }
+      .form-group .form-group-input-wrap .form-control.btn-outline-primar, .form-group .form-group-input-wrap .btn.btn-outline-primar, .form-group .form-group-input-wrap .form-select.btn-outline-primar {
+        border: 1px solid #212529; }
+    .form-group .form-group-input-wrap .form-control:disabled {
+      background-color: #F8F9FA;
+      border: none; }
+    .form-group .form-group-input-wrap .btn:disabled {
+      background-color: #fff;
+      border: 1px solid #CED4DA;
+      color: #CED4DA; }
+    .form-group .form-group-input-wrap .form-check {
+      margin-bottom: 1rem; }
+    .form-group .form-group-input-wrap .btn-outline-primary {
+      border: 1px solid #CED4DA; }
+      .form-group .form-group-input-wrap .btn-outline-primary:hover {
+        border: 1px solid #198754; }
+    .form-group .form-group-input-wrap .form-label {
+      font-size: 14px; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #212529; }
+  .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: #198754; }
+
+.nav-link {
+  color: #212529; }
+  .nav-link:hover, .nav-link:focus {
+    color: #198754; }
+
+.dropdown-toggle::after {
+  font-family: 'Material Icons Round';
+  content: "expand_more";
+  -webkit-font-feature-settings: 'liga';
+  border: none;
+  font-size: 24px;
+  color: #198754; }
+
+.table > :not(caption) > * > * {
+  padding: 1em; }
+
+.navbar-brand {
+  margin-right: 48px; }
+
+.page-link {
+  color: #212529; }
+
+.page-link .material-icons-round {
+  color: #198754; }
+
+.page-item.active .page-link {
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754; }
+
+.page-link:hover {
+  color: #198754; }
+
+.table-hover > tbody > tr:hover {
+  --bs-table-accent-bg: rgba(0, 0, 0, 0.02); }
+
+.modal-content {
+  border-radius: 0;
+  border: none; }
+
+.modal-body {
+  padding: 2em; }
+
+.modal-header {
+  padding: 2em; }
+  .modal-header .modal-title {
+    font-size: 24px;
+    font-weight: bold; }
+
+.page-wrap {
+  min-height: 100vh; }
+
+.side-bar {
+  min-width: 296px;
+  background-color: #F8F9FA;
+  font-size: 16px; }
+  .side-bar .side-menu-item {
+    padding: 4px 28px;
+    margin-bottom: 16px;
+    font-weight: bold; }
+    .side-bar .side-menu-item.active {
+      border-left: 4px solid #198754;
+      padding: 4px 28px 4px 24px; }
+      .side-bar .side-menu-item.active a {
+        color: #198754; }
+    .side-bar .side-menu-item .material-icons-round {
+      font-size: 24px;
+      margin-right: 16px; }
+
+.navbar {
+  padding-bottom: 32px;
+  padding-top: 0; }
+
+.main-body {
+  width: 100%;
+  padding: 32px; }
+
+.assignment-content {
+  width: 100%; }
+  .assignment-content .card-header .category {
+    display: block; }
+
+.list-group-item.item-active {
+  background-color: #F8F9FA; }
+
+.list-group-item .text-ellipse {
+  max-width: 60%; }
+
+.content-body {
+  width: 100%;
+  border-bottom: 1px solid #CED4DA; }
+
+.content-list {
+  margin-bottom: 0; }
+
+.content-list-item:last-child .content-body {
+  border-bottom: none; }
+
+.reply-section {
+  position: relative; }
+
+.reply-card {
+  border-radius: 0; }
+  .reply-card textarea {
+    border: none; }
+  .reply-card.show, .reply-card.collapsing {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    min-height: 200px; }
+
+/*# sourceMappingURL=all.css.map */

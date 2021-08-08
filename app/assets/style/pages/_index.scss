@@ -1,0 +1,44 @@
+.assignment-content{
+    width: 100%;
+    .card-header{
+        .category{
+            display: block;
+        }
+    }
+}
+.list-group-item{
+    &.item-active{
+        background-color: $color-gray-100;
+    }
+    .text-ellipse{
+        max-width: 60%;
+    }
+}
+.content-body{
+    width: 100%;
+    border-bottom: 1px solid $color-gray-400;
+}
+.content-list{
+    margin-bottom: 0;
+}
+.content-list-item:last-child{
+    .content-body{
+        border-bottom: none;
+    }
+}
+.reply-section{
+    position: relative;
+}
+.reply-card{
+    border-radius: 0;
+    textarea{
+        border: none;
+    }
+    &.show,&.collapsing{
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        min-height: 200px;
+    }
+}
